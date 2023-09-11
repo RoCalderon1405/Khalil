@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: rgba(55, 55, 155, 0.666);
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.7);
+  --color-white: #fff;
+  --color-black: #000000;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(146, 194, 196, 0.795);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #17779c;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0d1c61d7;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("./assets/fondoKhalil.jpeg");
+  color: var(--color-black);
+  line-height: 1.7;
+}
+
+/* GENERAL STYLES */
+
+
+.horizontal-line {
+  border-top: 1px solid #ffffff; /* Color y grosor de la línea */
+  margin: 20px auto; /* Espacio arriba y abajo de la línea */
+}
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section > h2 {
+    margin-bottom: 6rem;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
