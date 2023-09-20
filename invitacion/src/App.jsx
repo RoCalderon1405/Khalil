@@ -1,15 +1,14 @@
 import React from "react";
-import { Main } from "./Components/Main";
-import { BackgroundVideo } from "./Components/background/BackgroundVideo";
+import { Header } from "./Components/Header";
 
 function App() {
-
   return (
     <>
-      <Main/>
-      <BackgroundVideo/>
+      <div className="w-[320px] md:w-[500px] mx-auto mt-[3rem] flex justify-center">
+        <Header />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
