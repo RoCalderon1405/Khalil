@@ -89,7 +89,7 @@ export const Asistencia = () => {
           </div>
           <div className="w-full opacity-0" ref={useAnimateFadeLeft}>
             <a
-              href="https://wa.me/+525584018454?text=Jalo%20perro%20cochino%20ahí%20te%20wacho"
+              href="https://wa.me/+525584018454?text=¡Hola%20Raymundo!%20Cuenta%20conmigo%20🌟,%20ahí%20estaré."
               target="_blank"
             >
               <button className="flex text-2xl font-bold mt-4 w-[80%] gap-2 justify-center items-center mx-auto border-4 rounded-lg p-1 bg-gradient-to-bl from-sky-400 to-cyan-300">
