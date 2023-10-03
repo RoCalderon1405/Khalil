@@ -1,5 +1,5 @@
 // imports.js
-import Khalil1 from "./assets/Khalil1.webp";
+import Khalil1 from "./assets/Khalil3.webp";
 import Khalil2 from "./assets/Khalil2.webp";
 import Iglesia from "./assets/Iglesia.webp";
 import Pluto from "./assets/Pluto.webp";
