@@ -82,7 +82,7 @@ export const Khalil2 = () => {
     <div className="text-3xl opacity-0" ref={useAnimateFadeLeft}>Evento: 51303041</div>
     <div className="text-3xl opacity-0" ref={useAnimateFadeRight}>Liverpool</div>
 
-    <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51303041" className="border-2 border-blue-600 my-4 rounded-full py-1 bg-transparent w-[60%] mx-auto text-black text-lg hover:bg-blue-600 hover:border-black/60 hover:text-white hover:scale-105 transition duration-300 ease-in-out">
+    <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51303041" target="_blank" className="border-2 border-blue-600 my-4 rounded-full py-1 bg-transparent w-[60%] mx-auto text-black text-lg hover:bg-blue-600 hover:border-black/60 hover:text-white hover:scale-105 transition duration-300 ease-in-out">
       Liverpool
     </a>
   </div>
