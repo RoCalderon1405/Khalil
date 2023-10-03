@@ -76,7 +76,7 @@ export const Khalil2 = () => {
       />
     </div>
 
-    <h1 className="text-4xl text-blue-800 font-semibold my-[3rem] opacity-0" ref={useAnimateFadeUp}>
+    <h1 className="text-4xl text-blue-800 font-semibold  mb-[3rem] opacity-0" ref={useAnimateFadeUp}>
       Regalos sugeridos
     </h1>
     <div className="text-3xl opacity-0" ref={useAnimateFadeLeft}>Evento: 51303041</div>
