@@ -131,7 +131,7 @@ export const Header = () => {
 
       <Fiesta />
 
-      <div className="mx-auto mt-10 " ref={useAnimateFade6}>
+      <div className="mx-auto mt-10 opacity-0" ref={useAnimateFade6}>
         <img
           src={Daisy}
           alt=""
