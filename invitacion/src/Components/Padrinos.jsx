@@ -12,13 +12,6 @@ export const Padrinos = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-left",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
     });
   };
@@ -26,13 +19,6 @@ export const Padrinos = () => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add(
-          "animate-fade-up",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      } else {
-        entry.target.classList.remove(
           "animate-fade-up",
           "animate-duration-[1200ms]",
           "animate-ease-in-out",
@@ -50,14 +36,7 @@ export const Padrinos = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-down",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      }
+      } 
     });
   };
   const animateFadeRight = (entries) => {
@@ -69,21 +48,11 @@ export const Padrinos = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-right",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      }
+      } 
     });
   };
 
   const useAnimateFadeLeft = useIntersectionObserver(animateFadeLeft, {
-    threshold: 0.1,
-  });
-  const useAnimateFadeLeft1 = useIntersectionObserver(animateFadeLeft, {
     threshold: 0.1,
   });
   const useAnimateFadeRight = useIntersectionObserver(animateFadeRight, {

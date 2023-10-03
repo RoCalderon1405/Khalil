@@ -1,6 +1,5 @@
 import React from "react";
 import useIntersectionObserver from "../Hooks/InterseccitonObserver";
-import { Khalil2 } from "../importsImg";
 
 export const Bautizo = () => {
   
@@ -13,14 +12,8 @@ export const Bautizo = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-left",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
+      
     });
   };
   const animateFadeUp = (entries) => {
@@ -32,14 +25,8 @@ export const Bautizo = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-up",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
+      
     });
   };
   const animateFadeDown = (entries) => {
@@ -51,14 +38,8 @@ export const Bautizo = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-down",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
+      
     });
   };
   const animateFadeRight = (entries) => {
@@ -70,14 +51,8 @@ export const Bautizo = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-right",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
+      
     });
   };
 

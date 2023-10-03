@@ -12,27 +12,13 @@ export const IglesiaComp = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      }
+      } 
     });
   };
   const animateFadeLeft = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add(
-          "animate-fade-left",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      } else {
-        entry.target.classList.remove(
           "animate-fade-left",
           "animate-duration-[1200ms]",
           "animate-ease-in-out",
@@ -50,46 +36,14 @@ export const IglesiaComp = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-up",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
     });
   };
-  const animateFadeDown = (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add(
-          "animate-fade-down",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-down",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      }
-    });
-  };
+  
   const animateFadeRight = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add(
-          "animate-fade-right",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      } else {
-        entry.target.classList.remove(
           "animate-fade-right",
           "animate-duration-[1200ms]",
           "animate-ease-in-out",

@@ -29,13 +29,6 @@ export const Header = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade",
-          "animate-duration-[1500ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
     });
   };

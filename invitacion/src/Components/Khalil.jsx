@@ -12,13 +12,6 @@ export const Khalil = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade",
-          "animate-duration-[1500ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
     });
   };
@@ -26,13 +19,6 @@ export const Khalil = () => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add(
-          "animate-fade-left",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      } else {
-        entry.target.classList.remove(
           "animate-fade-left",
           "animate-duration-[1200ms]",
           "animate-ease-in-out",
@@ -50,32 +36,6 @@ export const Khalil = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-up",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      }
-    });
-  };
-  const animateFadeDown = (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add(
-          "animate-fade-down",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-down",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
     });
   };
@@ -88,13 +48,6 @@ export const Khalil = () => {
           "animate-ease-in-out",
           "opacity:100"
         );
-      } else {
-        entry.target.classList.remove(
-          "animate-fade-right",
-          "animate-duration-[1200ms]",
-          "animate-ease-in-out",
-          "opacity:100"
-        );
       }
     });
   };
@@ -102,13 +55,13 @@ export const Khalil = () => {
   const useAnimateFade = useIntersectionObserver(animateFade, {
     threshold: 0.1,
   });
-  const useAnimateFadeLeft = useIntersectionObserver(animateFade, {
+  const useAnimateFadeLeft = useIntersectionObserver(animateFadeLeft, {
     threshold: 0.1,
   });
-  const useAnimateFadeRight = useIntersectionObserver(animateFade, {
+  const useAnimateFadeRight = useIntersectionObserver(animateFadeRight, {
     threshold: 0.1,
   });
-  const useAnimateFadeUp = useIntersectionObserver(animateFade, {
+  const useAnimateFadeUp = useIntersectionObserver(animateFadeUp, {
     threshold: 0.1,
   });
 
@@ -129,6 +82,7 @@ export const Khalil = () => {
           alt=""
           className="w-full rounded-full mx-auto my-5 opacity-0"
           ref={useAnimateFade}
+          loading="eager"
         />
       </div>
     </div>
