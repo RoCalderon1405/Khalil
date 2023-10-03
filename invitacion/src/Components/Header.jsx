@@ -92,7 +92,7 @@ export const Header = () => {
         <img
           src={Pluto}
           alt=""
-          className="mx-auto max-w-[300px] animate-wiggle animate-infinite animate-duration-[1300ms] drop-shadow-[0_1px_35px_rgba(55,102,255,0.5)]"
+          className="mx-auto max-w-[300px] animate-wiggle animate-infinite animate-duration-[1300ms]"
           loading="lazy"
         />
       </div>
@@ -103,7 +103,7 @@ export const Header = () => {
         <img
           src={Goofy}
           alt=""
-          className="mx-auto max-w-[200px] animate-wiggle animate-infinite animate-duration-[1300ms] drop-shadow-[0_1px_35px_rgba(55,102,255,0.5)] "
+          className="mx-auto max-w-[200px] animate-wiggle animate-infinite animate-duration-[1300ms] "
         />
       </div>
 
@@ -113,7 +113,7 @@ export const Header = () => {
         <img
           src={Minnie}
           alt=""
-          className="w-full max-w-[200px] drop-shadow-[0_1px_35px_rgba(55,102,255,0.5)] animate-wiggle animate-infinite animate-duration-[1300ms]"
+          className="w-full max-w-[200px] animate-wiggle animate-infinite animate-duration-[1300ms]"
           loading="lazy"
         />
       </div>
